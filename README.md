@@ -1,6 +1,6 @@
 # README
 
-Get text contents of Microsoft Word document (`.docx`) without Office.
+Read MS Word document (`.docx`) without MS Office.
 
 ---
 
