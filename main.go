@@ -10,8 +10,11 @@ import (
 )
 
 func checkPath(s string) bool {
+	if !strings.HasSuffix(s, ".docx") {
+		return false
+	}
 	fs, err := os.Stat(s)
-	return strings.HasSuffix(s, ".docx") && err == nil && !fs.IsDir()
+	return err == nil && !fs.IsDir()
 }
 
 func run(src string) int {
