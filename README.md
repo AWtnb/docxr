@@ -2,6 +2,24 @@
 
 Read MS Word document (`.docx`) without MS Office.
 
+
+
+
+## Install
+
+```
+go install github.com/AWtnb/docxr@latest
+```
+
+or
+
+```
+go install .
+```
+
+after cloning this repo.
+
+
 ---
 
 Thanks:
